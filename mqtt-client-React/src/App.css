@@ -21,3 +21,82 @@
 .ant-form-inline .ant-form-item {
   margin-bottom: 20px;
 }
+
+.flex{
+  display: flex;
+  flex-direction: column;
+  word-break: break-all;
+}
+
+.flex-row{
+  display: flex;
+}
+
+.flex-1{
+  flex: 1;
+}
+.flex-one{
+  flex: 1;
+  word-break: break-all
+}
+.flex-two{
+  flex: 2;
+}
+
+.font-weight-l{
+  font-weight: 900;
+}
+
+.max-width{
+  max-width: 90vw !important;
+}
+
+.min-height{
+  min-height: 240px;;
+}
+
+.margin-top{
+  margin-top: 90px;
+}
+
+.border{
+  border: 2px solid black;
+}
+
+.width-fix{
+  height: 40vh !important;
+}
+
+.min-width{
+  width: 29vw !important;
+}
+
+.height-fix{
+  max-width: 400px !important;
+  height: 40vh !important;
+}
+
+.icon-font{
+  font-size: 3em;
+}
+
+.grid{
+  display: grid;
+  justify-content: end;
+}
+
+.align-center{
+  align-self: center;
+  max-width: 450px;
+  margin: 9px;
+  background-color: lightblue;
+}
+
+.borker-background-color{
+  background-color:lightblue;
+}
+
+.ant-card-head-title{
+  text-align: center;
+}
+
