@@ -50,8 +50,9 @@ class Connection extends React.Component {
         name="basic"
         initialValues={this.state.record}
         onValuesChange={this.onRecordChange}
+        
       >
-        <Row gutter={20}>
+        <Row gutter={20} className="borker-background-color">
           <Col span={8}>
             <Form.Item label="Host" name="host">
               <Input />
@@ -67,23 +68,16 @@ class Connection extends React.Component {
               <Input />
             </Form.Item>
           </Col>
-          <Col span={8}>
-            <Form.Item label="Username" name="username">
-              <Input />
-            </Form.Item>
-          </Col>
-          <Col span={8}>
-            <Form.Item label="Password" name="password">
-              <Input />
-            </Form.Item>
-          </Col>
+          
         </Row>
       </Form>
     );
 
     return (
       <Card
-        title="Connection"
+        title="Connection" 
+        title="broker"
+        className="borker-background-color"
         actions={[
           <Button type="primary" onClick={this.handleConnect}>
             {this.props.connectBtn}
