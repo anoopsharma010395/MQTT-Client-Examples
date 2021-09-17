@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import "bootstrap-icons/font/bootstrap-icons.css";
-
+import MQTTApp from './MQTTApp';
 
 
 ReactDOM.render(
-  <App />,
+  <React.StrictMode>
+      <MQTTApp />
+  </React.StrictMode>,
   document.getElementById('root')
 );
+
 
